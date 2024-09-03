@@ -1,0 +1,1226 @@
+<techtreemods>
+<tech name="RelicAnkhofRa" type="Normal">
+    <displaynameid>STR_RLC_TECH_ANKH_OF_RA_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ANKH_OF_RA_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_ankh_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.25" subtype="ResourceTrickleRate" resource="Favor" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ANKH_OF_RA_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ANKH_OF_RA_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicEyeOfHorus" type="Normal">
+    <displaynameid>STR_RLC_TECH_EYE_OF_HORUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_EYE_OF_HORUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
+        <target type="ProtoUnit">CitadelCenter</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_EYE_OF_HORUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_EYE_OF_HORUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicSistrumOfBast" type="Normal">
+    <displaynameid>STR_RLC_TECH_SISTRUM_OF_BAST_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SISTRUM_OF_BAST_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_music_instruments_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SISTRUM_OF_BAST_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SISTRUM_OF_BAST_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHeadOfOrpheus" type="Normal">
+    <displaynameid>STR_RLC_TECH_HEAD_OF_ORPHEUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_HEAD_OF_ORPHEUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_man_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="40" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_HEAD_OF_ORPHEUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_HEAD_OF_ORPHEUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicRingOfNibelung" type="Normal">
+    <displaynameid>STR_RLC_TECH_RING_OF_NIBELUNG_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_RING_OF_NIBELUNG_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_coins_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Gold" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_RING_OF_NIBELUNG_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_RING_OF_NIBELUNG_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicStaffOfDionysus" type="Normal">
+    <displaynameid>STR_RLC_TECH_STAFF_OF_DIONYSUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_STAFF_OF_DIONYSUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_staff_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2.5" subtype="UnitRegenRate" relativity="Absolute">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_STAFF_OF_DIONYSUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_STAFF_OF_DIONYSUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicFettersOfFenrir" type="Normal">
+    <displaynameid>STR_RLC_TECH_FETTERS_OF_FENRIR_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_FETTERS_OF_FENRIR_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_chains_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_FETTERS_OF_FENRIR_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_FETTERS_OF_FENRIR_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGungnirOdinsSpear" type="Normal">
+    <displaynameid>STR_RLC_TECH_GUNGNIR_ODINS_SPEAR_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GUNGNIR_ODINS_SPEAR_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_spear_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hirdman</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hoplite</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Spearman</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Katapeltes</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GUNGNIR_ODINS_SPEAR_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GUNGNIR_ODINS_SPEAR_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicKitharaOfApollo" type="Normal">
+    <displaynameid>STR_RLC_TECH_KITHARA_OF_APOLLO_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_KITHARA_OF_APOLLO_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_music_instruments_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_KITHARA_OF_APOLLO_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_KITHARA_OF_APOLLO_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicDwarvenHorseshoes" type="Normal">
+    <displaynameid>STR_RLC_TECH_DWARVEN_HORSESHOES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_DWARVEN_HORSESHOES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_horseshoe_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_DWARVEN_HORSESHOES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_DWARVEN_HORSESHOES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicBowOfArtemis" type="Normal">
+    <displaynameid>STR_RLC_TECH_BOW_OF_ARTEMIS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_BOW_OF_ARTEMIS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bow_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">Ballista</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">Ballista</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_BOW_OF_ARTEMIS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_BOW_OF_ARTEMIS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicScalesOfEchidna" type="Normal">
+    <displaynameid>STR_RLC_TECH_SCALES_OF_ECHIDNA_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SCALES_OF_ECHIDNA_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_dragon_head_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SCALES_OF_ECHIDNA_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SCALES_OF_ECHIDNA_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicNoseOfTheSphinx" type="Normal">
+    <displaynameid>STR_RLC_TECH_NOSE_OF_THE_SPHINX_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_NOSE_OF_THE_SPHINX_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_lion_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="Data" amount="0.25" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeUnitIsConstructed</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_NOSE_OF_THE_SPHINX_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_NOSE_OF_THE_SPHINX_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicArrowsOfAlfar" type="Normal">
+    <displaynameid>STR_RLC_TECH_ARROWS_OF_ALFAR_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ARROWS_OF_ALFAR_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bow_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ARROWS_OF_ALFAR_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ARROWS_OF_ALFAR_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicArrowsOfHeracles" type="Normal">
+    <displaynameid>STR_RLC_TECH_ARROWS_OF_HERACLES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ARROWS_OF_HERACLES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bow_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">ArcherLineUpgraded</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">HeroShadowUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ARROWS_OF_HERACLES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ARROWS_OF_HERACLES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGambanteinnOdinsWand" type="Normal">
+    <displaynameid>STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_tools_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Food" relativity="Percent">
+        <target type="ProtoUnit">Temple</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">Temple</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">Temple</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Favor" relativity="Percent">
+        <target type="ProtoUnit">Temple</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicBridleOfPegasus" type="Normal">
+    <displaynameid>STR_RLC_TECH_BRIDLE_OF_PEGASUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_BRIDLE_OF_PEGASUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_tools_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="TechStatus" status="obtainable">BridleOfPegasusRespawn</effect>
+      <effect type="TextOutput">STR_RLC_TECH_BRIDLE_OF_PEGASUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_BRIDLE_OF_PEGASUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="BridleOfPegasusRespawn">
+    <status>UNOBTAINABLE</status>
+    <delay>60.0000</delay>
+    <initialdelay>0.5000</initialdelay>
+    <flag>Volatile</flag>
+    <flag>Persistent</flag>
+    <flag>HideFromDialogs</flag>
+    <flag>DelayedFirstActivation</flag>
+    <prereqs>
+      <techstatus status="Active">RelicBridleOfPegasus</techstatus>
+      <typecount unit="Temple" count="0.00" state="aliveState" operator="gt">
+      </typecount>
+      <typecount unit="PegasusBridleOfPegasus" count="1.00" state="aliveState" operator="lt">
+      </typecount>
+    </prereqs>
+    <effects>
+      <effect type="CreateUnit" unit="PegasusBridleOfPegasus" generator="AbstractTemple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+          <offset x="0.00" y="0.00" z="0.00">
+          </offset>
+        </pattern>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicUllrsBow" type="Normal">
+    <displaynameid>STR_RLC_TECH_ULLRS_BOW_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ULLRS_BOW_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bow_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange" relativity="Absolute">
+        <target type="ProtoUnit">Ballista</target>
+      </effect>
+      <effect type="Data" amount="5" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect type="Data" amount="5" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Ballista</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ULLRS_BOW_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ULLRS_BOW_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicBlueCrystalShard" type="Normal">
+    <displaynameid>STR_RLC_TECH_BLUE_CRYSTAL_SHARD_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_BLUE_CRYSTAL_SHARD_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_BLUE_CRYSTAL_SHARD_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_BLUE_CRYSTAL_SHARD_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicArmorOfAchilles" type="Normal">
+    <displaynameid>STR_RLC_TECH_ARMOR_OF_ACHILLES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ARMOR_OF_ACHILLES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_armor_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ARMOR_OF_ACHILLES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ARMOR_OF_ACHILLES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicShipOfFingernails" type="Normal">
+    <displaynameid>STR_RLC_TECH_SHIP_OF_FINGERNAILS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SHIP_OF_FINGERNAILS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_dragon_head_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Food" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SHIP_OF_FINGERNAILS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SHIP_OF_FINGERNAILS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicAdamantiteShingles" type="Normal">
+    <displaynameid>STR_RLC_TECH_ADAMANTITE_SHINGLES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ADAMANTITE_SHINGLES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bricks_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="15.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" amount="10.00" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Manor</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ADAMANTITE_SHINGLES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ADAMANTITE_SHINGLES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicEyeOfOrnlu" type="Normal">
+    <displaynameid>STR_RLC_TECH_EYE_OF_ORNLU_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_EYE_OF_ORNLU_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_sword_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hypaspist</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Axeman</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">ThrowingAxeman</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Cheiroballista</target>
+      </effect>
+      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">CheiroballistaHero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_EYE_OF_ORNLU_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_EYE_OF_ORNLU_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTuskOfTheIronBoar" type="Normal">
+    <displaynameid>STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_fur_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractCavalry</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicPandorasBox" type="Normal">
+    <displaynameid>STR_RLC_TECH_PANDORAS_BOX_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_PANDORAS_BOX_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_PANDORAS_BOX_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_PANDORAS_BOX_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicThundercloudShawl" type="Normal">
+    <displaynameid>STR_RLC_TECH_THUNDERCLOUD_SHAWL_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_THUNDERCLOUD_SHAWL_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_blanket_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">HumanSoldier</target>
+      </effect>
+      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">HeroShadowUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_THUNDERCLOUD_SHAWL_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_THUNDERCLOUD_SHAWL_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHarmoniasNecklace" type="Normal">
+    <displaynameid>STR_RLC_TECH_HARMONIAS_NECKLACE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_HARMONIAS_NECKLACE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_HARMONIAS_NECKLACE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_HARMONIAS_NECKLACE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicDwarvenCalipers" type="Normal">
+    <displaynameid>STR_RLC_TECH_DWARVEN_CALIPERS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_DWARVEN_CALIPERS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_tools_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_DWARVEN_CALIPERS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_DWARVEN_CALIPERS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicChariotOfCybele" type="Normal">
+    <displaynameid>STR_RLC_TECH_CHARIOT_OF_CYBELE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_CHARIOT_OF_CYBELE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_lion_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="TechStatus" status="obtainable">GoldenLionsRespawn</effect>
+      <effect type="TextOutput">STR_RLC_TECH_CHARIOT_OF_CYBELE_SELF</effect>
+      <effect type="TextOutput" all="True">STR_RLC_TECH_CHARIOT_OF_CYBELE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="GoldenLionsRespawn">
+    <status>UNOBTAINABLE</status>
+    <delay>60.0000</delay>
+    <initialdelay>0.5000</initialdelay>
+    <flag>Volatile</flag>
+    <flag>Persistent</flag>
+    <flag>HideFromDialogs</flag>
+    <flag>DelayedFirstActivation</flag>
+    <prereqs>
+      <techstatus status="Active">RelicChariotOfCybele</techstatus>
+      <typecount unit="RelicGoldenLion" count="1.00" state="aliveState" operator="lt">
+      </typecount>
+    </prereqs>
+    <effects>
+      <effect type="CreateUnit" unit="RelicGoldenLion" generator="AbstractTemple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="10.00" minradius="0.00">
+          <offset x="5.00" y="0.00" z="5.00">
+          </offset>
+        </pattern>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_CHARIOT_OF_CYBELE_SPAWN</effect>
+    </effects>
+  </tech>
+  <tech name="RelicSkullsOfTheCercopes" type="Normal">
+    <displaynameid>STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_monkey_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="TechStatus" status="obtainable">RelicMonkeyRespawn</effect>
+      <effect type="TextOutput">STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicMonkeyRespawn">
+    <status>UNOBTAINABLE</status>
+    <delay>120.0000</delay>
+    <initialdelay>0.5000</initialdelay>
+    <flag>Volatile</flag>
+    <flag>Persistent</flag>
+    <flag>HideFromDialogs</flag>
+    <flag>DelayedFirstActivation</flag>
+    <prereqs>
+      <techstatus status="Active">RelicSkullsOfTheCercopes</techstatus>
+      <typecount unit="RelicMonkey" count="1.00" state="aliveState" operator="lt">
+      </typecount>
+    </prereqs>
+    <effects>
+      <effect type="CreateUnit" unit="RelicMonkey" generator="AbstractTemple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="30.00" minradius="0.00">
+          <offset x="0.00" y="-5.00" z="0.00">
+          </offset>
+        </pattern>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_SPAWN</effect>
+    </effects>
+  </tech>
+  <tech name="RelicCanopicJarOfImsety" type="Normal">
+    <displaynameid>STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_vase_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="TrainPoints" relativity="Percent">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTowerOfSestus" type="Normal">
+    <displaynameid>STR_RLC_TECH_TOWER_OF_SESTUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TOWER_OF_SESTUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bow_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" allactions="1" amount="2.0" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+        <target type="ProtoUnit">SentryTower</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TOWER_OF_SESTUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TOWER_OF_SESTUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTrojanGateHinge" type="Normal">
+    <displaynameid>STR_RLC_TECH_TROJAN_GATE_HINGE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TROJAN_GATE_HINGE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_chains_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWall</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TROJAN_GATE_HINGE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TROJAN_GATE_HINGE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGirdleOfHippolyta" type="Normal">
+    <displaynameid>STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_armor_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicPygmalionsStatue" type="Normal">
+    <displaynameid>STR_RLC_TECH_PYGMALIONS_STATUE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_PYGMALIONS_STATUE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_man_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="3" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_PYGMALIONS_STATUE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_PYGMALIONS_STATUE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicBlackLotus" type="Normal">
+    <displaynameid>STR_RLC_TECH_BLACK_LOTUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_BLACK_LOTUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_vase_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_BLACK_LOTUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_BLACK_LOTUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHartersFolly" type="Normal">
+    <status>UNOBTAINABLE</status>
+    <icon>resources\shared\technologies\copper_armor_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+  </tech>
+  <tech name="RelicScarabPendant" type="Normal">
+    <displaynameid>STR_RLC_TECH_SCARAB_PENDANT_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SCARAB_PENDANT_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+        <target type="ProtoUnit">Behemoth</target>
+      </effect>
+      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+        <target type="ProtoUnit">Scarab</target>
+      </effect>
+      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+        <target type="ProtoUnit">MountainGiant</target>
+      </effect>
+      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+        <target type="ProtoUnit">Colossus</target>
+      </effect>
+      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SCARAB_PENDANT_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SCARAB_PENDANT_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHermesWingedSandals" type="Normal">
+    <displaynameid>STR_RLC_TECH_HERMES_WINGED_SANDALS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_HERMES_WINGED_SANDALS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_horseshoe_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_HERMES_WINGED_SANDALS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_HERMES_WINGED_SANDALS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicAnvilOfHephaestus" type="Normal">
+    <displaynameid>STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_anvil_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">Armory</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicPeltOfArgus" type="Normal">
+    <displaynameid>STR_RLC_TECH_PELT_OF_ARGUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_PELT_OF_ARGUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_fur_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="30" subtype="LOS" relativity="Absolute">
+        <target type="ProtoUnit">Unit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_PELT_OF_ARGUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_PELT_OF_ARGUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicOsebergWagon" type="Normal">
+    <displaynameid>STR_RLC_TECH_OSEBERG_WAGON_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_OSEBERG_WAGON_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_horseshoe_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">TradeUnit</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="ProtoUnit">TradeUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_OSEBERG_WAGON_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_OSEBERG_WAGON_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicFlagstoneOfBuhen" type="Normal">
+    <displaynameid>STR_RLC_TECH_FLAGSTONE_OF_BUHEN_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_FLAGSTONE_OF_BUHEN_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_bricks_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">WallGate</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_FLAGSTONE_OF_BUHEN_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_FLAGSTONE_OF_BUHEN_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicScalesOfCatoblepas" type="Normal">
+    <displaynameid>STR_RLC_TECH_SCALES_OF_CATOBLEPAS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SCALES_OF_CATOBLEPAS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_armor_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="-0.75" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SCALES_OF_CATOBLEPAS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SCALES_OF_CATOBLEPAS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTailOfCerberus" type="Normal">
+    <displaynameid>STR_RLC_TECH_TAIL_OF_CERBERUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TAIL_OF_CERBERUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_fur_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="RechargeTime" relativity="BasePercent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TAIL_OF_CERBERUS_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TAIL_OF_CERBERUS_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicBlanketOfEmpressZoe" type="Normal">
+    <displaynameid>STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_blanket_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="-0.50" subtype="ArmorVulnerability" armortype="Crush" relativity="Percent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicKhopeshOfHorus" type="Normal">
+    <displaynameid>STR_RLC_TECH_KHOPESH_OF_HORUS_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_KHOPESH_OF_HORUS_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_khopesh_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" allactions="1" amount="5.00" subtype="Damagebonus" unittype="MythUnit" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_KHOPESH_OF_HORUS_NAME_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_KHOPESH_OF_HORUS_NAME_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTitansTreasure" type="Normal">
+    <displaynameid>STR_RLC_TECH_TITANS_TREASURE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TITANS_TREASURE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_coins_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="techWithFlag">AgeUpgrade</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="techWithFlag">AgeUpgrade</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+        <target type="Tech">SecretsOfTheTitans</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="Tech">SecretsOfTheTitans</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="Tech">SecretsOfTheTitans</target>
+      </effect>
+      <effect type="Data" amount="0.50" subtype="Cost" resource="Favor" relativity="Percent">
+        <target type="Tech">SecretsOfTheTitans</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TITANS_TREASURE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TITANS_TREASURE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGaiasBookOfKnowledge" type="Normal">
+    <displaynameid>STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_scroll_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="HandAttack" amount="15.00" subtype="Damagebonus" unittype="AbstractTitan" relativity="Absolute">
+        <target type="ProtoUnit">AbstractInfantry</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicArchimedesLedger" type="Normal">
+    <displaynameid>STR_RLC_TECH_ARCHIMEDES_LEDGER_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_ARCHIMEDES_LEDGER_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_scroll_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="-5.00" subtype="PopulationCount" relativity="Absolute">
+        <target type="ProtoUnit">AbstractSiegeWeapon</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_ARCHIMEDES_LEDGER_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_ARCHIMEDES_LEDGER_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicDemetersThrone" type="Normal">
+    <displaynameid>STR_RLC_TECH_DEMETERS_THRONE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_DEMETERS_THRONE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_coins_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Storehouse</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Granary</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">LumberCamp</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">MiningCamp</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">OxCartBuilding</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Manor</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicGuild</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">Storehouse</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">Granary</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
+        <target type="ProtoUnit">OxCartBuilding</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">OxCartBuilding</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">House</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">Manor</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">Manor</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicGuild</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicGuild</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_DEMETERS_THRONE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_DEMETERS_THRONE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHestiasHearth" type="Normal">
+    <displaynameid>STR_RLC_TECH_HESTIAS_HEARTH_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_HESTIAS_HEARTH_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_torch_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractVillager</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_HESTIAS_HEARTH_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_HESTIAS_HEARTH_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicPtahsSceptre" type="Normal">
+    <displaynameid>STR_RLC_TECH_PTAHS_SCEPTRE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_PTAHS_SCEPTRE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_ankh_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
+        <target type="ProtoUnit">Farm</target>
+      </effect>
+      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
+        <target type="ProtoUnit">Farm</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_PTAHS_SCEPTRE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_PTAHS_SCEPTRE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTyrfingAngantyrsSword" type="Normal">
+    <displaynameid>STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_sword_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.5" subtype="OnHitEffectRate" allactions="1" effecttype="Lifesteal" targettype="Unit" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicSvadilfarisSledge" type="Normal">
+    <displaynameid>STR_RLC_TECH_SVADILFARIS_SLEDGE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SVADILFARIS_SLEDGE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_tools_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0" subtype="Cost" resource="Favor" relativity="Assign">
+        <target type="ProtoUnit">AbstractFortress</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SVADILFARIS_SLEDGE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SVADILFARIS_SLEDGE_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicRheiasCrown" type="Normal">
+    <displaynameid>STR_RLC_TECH_RHEIAS_CROWN_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_RHEIAS_CROWN_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_crown_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractTownCenter</target>
+      </effect>
+      <effect type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractTownCenter</target>
+      </effect>
+      <effect type="Data" action="Autogather" amount="5.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">AbstractTownCenter</target>
+      </effect>
+      <effect type="Data" action="Autogather" amount="0.05" subtype="WorkRate" unittype="Favor" relativity="Absolute">
+        <target type="ProtoUnit">AbstractTownCenter</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_RHEIAS_CROWN_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_RHEIAS_CROWN_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicTextsOfImhotep" type="Normal">
+    <displaynameid>STR_RLC_TECH_TEXTS_OF_IMHOTEP_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_TEXTS_OF_IMHOTEP_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_scroll_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+        <target type="ProtoUnit">Building</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_TEXTS_OF_IMHOTEP_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_TEXTS_OF_IMHOTEP_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicCharonsObol" type="Normal">
+    <displaynameid>STR_RLC_TECH_CHARONS_OBOL_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_CHARONS_OBOL_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_coins_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">VillagerGreek</target>
+      </effect>
+      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">VillagerEgyptian</target>
+      </effect>
+      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">VillagerNorse</target>
+      </effect>
+      <effect type="Data" amount="175.00" subtype="ResourceReturn" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">VillagerDwarf</target>
+      </effect>
+      <effect type="Data" amount="212.50" subtype="ResourceReturn" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">VillagerAtlantean</target>
+      </effect>
+      <effect type="Data" amount="37.50" subtype="ResourceReturn" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">VillagerAtlantean</target>
+      </effect>
+      <effect type="Data" amount="300.00" subtype="ResourceReturn" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">VillagerAtlanteanHero</target>
+      </effect>
+      <effect type="Data" amount="50.00" subtype="ResourceReturn" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">VillagerAtlanteanHero</target>
+      </effect>
+      <effect type="Data" amount="5.00" subtype="ResourceReturn" resource="Favor" relativity="Assign">
+        <target type="ProtoUnit">VillagerAtlanteanHero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_CHARONS_OBOL_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_CHARONS_OBOL_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicHekatesTorches" type="Normal">
+    <displaynameid>STR_RLC_TECH_HEKATES_TORCHES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_HEKATES_TORCHES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_torch_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" subtype="GodPowerROFFactor" amount="0.50" relativity="Percent">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" subtype="GodPowerCostFactor" amount="0.50" relativity="Percent">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_HEKATES_TORCHES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_HEKATES_TORCHES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicShenOfNekhbet" type="Normal">
+    <displaynameid>STR_RLC_TECH_SHEN_OF_NEKHBET_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_SHEN_OF_NEKHBET_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_statue_lion_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" allactions="1" amount="10.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">LogicalTypeMythUnitNotTitan</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_SHEN_OF_NEKHBET_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_SHEN_OF_NEKHBET_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGlaucusBookOfProphecies" type="Normal">
+    <displaynameid>STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_scroll_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" action="Gather" amount="2.50" subtype="WorkRate" unittype="FishResource" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractFishingShip</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicProwOfTheArgo" type="Normal">
+    <displaynameid>STR_RLC_TECH_PROW_OF_THE_ARGO_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_PROW_OF_THE_ARGO_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_vase_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWarship</target>
+      </effect>
+      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">AbstractWarshipHero</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_PROW_OF_THE_ARGO_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_PROW_OF_THE_ARGO_OTHER</effect>
+    </effects>
+  </tech>
+  <tech name="RelicGoldenCamelStatue" type="Normal">
+    <displaynameid>STR_RLC_TECH_GOLDEN_CAMEL_STATUE_NAME</displaynameid>
+    <rollovertextid>STR_RLC_TECH_GOLDEN_CAMEL_STATUE_LR</rollovertextid>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\nature\relics\relic_jewelry_icon.png</icon>
+    <flag>YPForceUnapply</flag>
+    <flag>NoTextMessage</flag>
+    <effects>
+      <effect type="Data" amount="5.00" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">OsirisPieceCart</target>
+      </effect>
+      <effect type="TextOutput">STR_RLC_TECH_GOLDEN_CAMEL_STATUE_SELF</effect>
+      <effect all="true" type="TextOutput">STR_RLC_TECH_GOLDEN_CAMEL_STATUE_OTHER</effect>
+    </effects>
+  </tech>
+</techtreemods>
