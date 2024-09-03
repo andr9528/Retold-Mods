@@ -1,6 +1,6 @@
 # 5x Effective Relics
 
-Mod by andr9528 (GitHub) / WolfDK (Discord) / BlueishTiger (Steam) / WolfDK1996 (Age of Empire).
+Mod by andr9528 (GitHub) / WolfDK (Discord) / BlueishTigerDK (Steam) / WolfDK1996 (Age of Empire).
 
 ## Description
 
