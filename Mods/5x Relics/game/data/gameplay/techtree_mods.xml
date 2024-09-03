@@ -15,37 +15,37 @@
   </tech>
   <tech name="RelicEyeOfHorus" type="Normal">
     <effects>
-      <effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
-      <effect type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="20.00" subtype="PopulationCapAddition" relativity="Absolute">
         <target type="ProtoUnit">CitadelCenter</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicSistrumOfBast" type="Normal">
     <effects>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicHeadOfOrpheus" type="Normal">
     <effects>
-      <effect type="Data" amount="40" subtype="LOS" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="40" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">Building</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicRingOfNibelung" type="Normal">
     <effects>
-      <effect type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Gold"
+      <effect mergeMode='add' type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Gold"
         relativity="Absolute">
         <target type="Player">
         </target>
@@ -54,36 +54,36 @@
   </tech>
   <tech name="RelicStaffOfDionysus" type="Normal">
     <effects>
-      <effect type="Data" amount="2.5" subtype="UnitRegenRate" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="2.5" subtype="UnitRegenRate" relativity="Absolute">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicFettersOfFenrir" type="Normal">
     <effects>
-      <effect type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicGungnirOdinsSpear" type="Normal">
     <effects>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Hirdman</target>
       </effect>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Hoplite</target>
       </effect>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Spearman</target>
       </effect>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Katapeltes</target>
       </effect>
@@ -91,124 +91,108 @@
   </tech>
   <tech name="RelicKitharaOfApollo" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_KITHARA_OF_APOLLO_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_KITHARA_OF_APOLLO_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicDwarvenHorseshoes" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_DWARVEN_HORSESHOES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_DWARVEN_HORSESHOES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicBowOfArtemis" type="Normal">
     <effects>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_BOW_OF_ARTEMIS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_BOW_OF_ARTEMIS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicScalesOfEchidna" type="Normal">
     <effects>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Food" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SCALES_OF_ECHIDNA_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SCALES_OF_ECHIDNA_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicNoseOfTheSphinx" type="Normal">
     <effects>
-      <effect type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.75" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect type="Data" amount="0.25" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeUnitIsConstructed</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_NOSE_OF_THE_SPHINX_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_NOSE_OF_THE_SPHINX_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicArrowsOfAlfar" type="Normal">
     <effects>
-      <effect type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ARROWS_OF_ALFAR_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ARROWS_OF_ALFAR_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicArrowsOfHeracles" type="Normal">
     <effects>
-      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">ArcherLineUpgraded</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">HeroShadowUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ARROWS_OF_HERACLES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ARROWS_OF_HERACLES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicGambanteinnOdinsWand" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Food"
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Food"
         relativity="Percent">
         <target type="ProtoUnit">Temple</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Wood"
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Wood"
         relativity="Percent">
         <target type="ProtoUnit">Temple</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold"
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold"
         relativity="Percent">
         <target type="ProtoUnit">Temple</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Favor"
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Favor"
         relativity="Percent">
         <target type="ProtoUnit">Temple</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_GAMBANTEINN_ODINS_WAND_OTHER</effect>
     </effects>
   </tech>
   <tech name="BridleOfPegasusRespawn">
     <effects>
-      <effect type="CreateUnit" unit="PegasusBridleOfPegasus" generator="AbstractTemple">
+      <effect mergeMode='add' type="CreateUnit" unit="PegasusBridleOfPegasus" generator="AbstractTemple">
         <pattern type="Scatter" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
           <offset x="0.00" y="0.00" z="0.00">
           </offset>
@@ -218,614 +202,526 @@
   </tech>
   <tech name="RelicUllrsBow" type="Normal">
     <effects>
-      <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange"
         relativity="Absolute">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="5.00" subtype="MaximumRange"
         relativity="Absolute">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect type="Data" amount="5" subtype="LOS" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="5" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect type="Data" amount="5" subtype="LOS" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="5" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ULLRS_BOW_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ULLRS_BOW_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicBlueCrystalShard" type="Normal">
     <effects>
-      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="GoldResource"
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="GoldResource"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree"
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_BLUE_CRYSTAL_SHARD_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_BLUE_CRYSTAL_SHARD_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicArmorOfAchilles" type="Normal">
     <effects>
-      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack"
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack"
         relativity="Percent">
         <target type="ProtoUnit">AbstractInfantry</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ARMOR_OF_ACHILLES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ARMOR_OF_ACHILLES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicShipOfFingernails" type="Normal">
     <effects>
-      <effect type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Food"
+      <effect mergeMode='add' type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Food"
         relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SHIP_OF_FINGERNAILS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SHIP_OF_FINGERNAILS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicAdamantiteShingles" type="Normal">
     <effects>
-      <effect type="Data" amount="15.00" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="15.00" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect type="Data" amount="10.00" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="10.00" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ADAMANTITE_SHINGLES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ADAMANTITE_SHINGLES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicEyeOfOrnlu" type="Normal">
     <effects>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Hypaspist</target>
       </effect>
-      <effect type="Data" action="HandAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Axeman</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">ThrowingAxeman</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">Cheiroballista</target>
       </effect>
-      <effect type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="1.25" subtype="Damage"
         relativity="BasePercent">
         <target type="ProtoUnit">CheiroballistaHero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_EYE_OF_ORNLU_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_EYE_OF_ORNLU_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTuskOfTheIronBoar" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TUSK_OF_THE_IRON_BOAR_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicPandorasBox" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_PANDORAS_BOX_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_PANDORAS_BOX_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicThundercloudShawl" type="Normal">
     <effects>
-      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce"
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce"
         relativity="Percent">
         <target type="ProtoUnit">HumanSoldier</target>
       </effect>
-      <effect type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce"
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce"
         relativity="Percent">
         <target type="ProtoUnit">HeroShadowUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_THUNDERCLOUD_SHAWL_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_THUNDERCLOUD_SHAWL_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicHarmoniasNecklace" type="Normal">
     <effects>
-      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="GoldResource"
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="GoldResource"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_HARMONIAS_NECKLACE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_HARMONIAS_NECKLACE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicDwarvenCalipers" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="Percent">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_DWARVEN_CALIPERS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_DWARVEN_CALIPERS_OTHER</effect>
     </effects>
   </tech>
   <tech name="GoldenLionsRespawn">
     <effects>
-      <effect type="CreateUnit" unit="RelicGoldenLion" generator="AbstractTemple">
+      <effect mergeMode='add' type="CreateUnit" unit="RelicGoldenLion" generator="AbstractTemple">
         <pattern type="Scatter" speed="0.00" radius="0.00" quantity="10.00" minradius="0.00">
           <offset x="5.00" y="0.00" z="5.00">
           </offset>
         </pattern>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_CHARIOT_OF_CYBELE_SPAWN</effect>
     </effects>
   </tech>
   <tech name="RelicMonkeyRespawn">
     <effects>
-      <effect type="CreateUnit" unit="RelicMonkey" generator="AbstractTemple">
+      <effect mergeMode='add' type="CreateUnit" unit="RelicMonkey" generator="AbstractTemple">
         <pattern type="Scatter" speed="0.00" radius="0.00" quantity="30.00" minradius="0.00">
           <offset x="0.00" y="-5.00" z="0.00">
           </offset>
         </pattern>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SKULLS_OF_THE_CERCOPES_SPAWN</effect>
     </effects>
   </tech>
   <tech name="RelicCanopicJarOfImsety" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="TrainPoints" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="TrainPoints" relativity="Percent">
         <target type="ProtoUnit">AbstractInfantry</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_CANOPIC_JAR_OF_IMSETY_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTowerOfSestus" type="Normal">
     <effects>
-      <effect type="Data" allactions="1" amount="2.0" subtype="DamageBonus" unittype="MythUnit"
+      <effect mergeMode='add' type="Data" allactions="1" amount="2.0" subtype="DamageBonus" unittype="MythUnit"
         relativity="Absolute">
         <target type="ProtoUnit">SentryTower</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TOWER_OF_SESTUS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TOWER_OF_SESTUS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTrojanGateHinge" type="Normal">
     <effects>
-      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractWall</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TROJAN_GATE_HINGE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TROJAN_GATE_HINGE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicGirdleOfHippolyta" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_GIRDLE_OF_HIPPOLYTA_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicPygmalionsStatue" type="Normal">
     <effects>
-      <effect type="Data" amount="3" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="3" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_PYGMALIONS_STATUE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_PYGMALIONS_STATUE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicBlackLotus" type="Normal">
     <effects>
-      <effect type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractFarm"
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.50" subtype="WorkRate" unittype="AbstractFarm"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_BLACK_LOTUS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_BLACK_LOTUS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicHartersFolly" type="Normal">
   </tech>
   <tech name="RelicScarabPendant" type="Normal">
     <effects>
-      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
+      <effect mergeMode='add' type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
         relativity="BasePercent">
         <target type="ProtoUnit">Behemoth</target>
       </effect>
-      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
+      <effect mergeMode='add' type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
         relativity="BasePercent">
         <target type="ProtoUnit">Scarab</target>
       </effect>
-      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
+      <effect mergeMode='add' type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
         relativity="BasePercent">
         <target type="ProtoUnit">MountainGiant</target>
       </effect>
-      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
+      <effect mergeMode='add' type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
         relativity="BasePercent">
         <target type="ProtoUnit">Colossus</target>
       </effect>
-      <effect type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
+      <effect mergeMode='add' type="Data" amount="2" allactions="1" subtype="Damage" damagetype="Crush"
         relativity="BasePercent">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SCARAB_PENDANT_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SCARAB_PENDANT_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicHermesWingedSandals" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_HERMES_WINGED_SANDALS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_HERMES_WINGED_SANDALS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicAnvilOfHephaestus" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold"
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="CostBuildingTechs" resource="Gold"
         relativity="Percent">
         <target type="ProtoUnit">Armory</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ANVIL_OF_HEPHAESTUS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicPeltOfArgus" type="Normal">
     <effects>
-      <effect type="Data" amount="30" subtype="LOS" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="30" subtype="LOS" relativity="Absolute">
         <target type="ProtoUnit">Unit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_PELT_OF_ARGUS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_PELT_OF_ARGUS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicOsebergWagon" type="Normal">
     <effects>
-      <effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">TradeUnit</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
         <target type="ProtoUnit">TradeUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_OSEBERG_WAGON_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_OSEBERG_WAGON_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicFlagstoneOfBuhen" type="Normal">
     <effects>
-      <effect type="Data" amount="0" subtype="Cost" resource="Gold" relativity="Assign">
+      <effect mergeMode='add' type="Data" amount="0" subtype="Cost" resource="Gold" relativity="Assign">
         <target type="ProtoUnit">WallGate</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_FLAGSTONE_OF_BUHEN_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_FLAGSTONE_OF_BUHEN_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicScalesOfCatoblepas" type="Normal">
     <effects>
-      <effect type="Data" amount="-0.75" subtype="ArmorVulnerability" armortype="Pierce"
+      <effect mergeMode='add' type="Data" amount="-0.75" subtype="ArmorVulnerability" armortype="Pierce"
         relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SCALES_OF_CATOBLEPAS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SCALES_OF_CATOBLEPAS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTailOfCerberus" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="RechargeTime" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="RechargeTime" relativity="BasePercent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TAIL_OF_CERBERUS_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TAIL_OF_CERBERUS_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicBlanketOfEmpressZoe" type="Normal">
     <effects>
-      <effect type="Data" amount="-0.50" subtype="ArmorVulnerability" armortype="Crush"
+      <effect mergeMode='add' type="Data" amount="-0.50" subtype="ArmorVulnerability" armortype="Crush"
         relativity="Percent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_BLANKET_OF_EMPRESS_ZOE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicKhopeshOfHorus" type="Normal">
     <effects>
-      <effect type="Data" allactions="1" amount="5.00" subtype="Damagebonus" unittype="MythUnit"
+      <effect mergeMode='add' type="Data" allactions="1" amount="5.00" subtype="Damagebonus" unittype="MythUnit"
         relativity="Absolute">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_KHOPESH_OF_HORUS_NAME_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_KHOPESH_OF_HORUS_NAME_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTitansTreasure" type="Normal">
     <effects>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
         <target type="techWithFlag">AgeUpgrade</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
         <target type="techWithFlag">AgeUpgrade</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
         <target type="Tech">SecretsOfTheTitans</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
         <target type="Tech">SecretsOfTheTitans</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Gold" relativity="Percent">
         <target type="Tech">SecretsOfTheTitans</target>
       </effect>
-      <effect type="Data" amount="0.50" subtype="Cost" resource="Favor" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.50" subtype="Cost" resource="Favor" relativity="Percent">
         <target type="Tech">SecretsOfTheTitans</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TITANS_TREASURE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TITANS_TREASURE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicGaiasBookOfKnowledge" type="Normal">
     <effects>
-      <effect type="Data" action="HandAttack" amount="15.00" subtype="Damagebonus"
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="15.00" subtype="Damagebonus"
         unittype="AbstractTitan" relativity="Absolute">
         <target type="ProtoUnit">AbstractInfantry</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_GAIAS_BOOK_OF_KNOWLEDGE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicArchimedesLedger" type="Normal">
     <effects>
-      <effect type="Data" amount="-5.00" subtype="PopulationCount" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="-5.00" subtype="PopulationCount" relativity="Absolute">
         <target type="ProtoUnit">AbstractSiegeWeapon</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_ARCHIMEDES_LEDGER_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_ARCHIMEDES_LEDGER_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicDemetersThrone" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">Storehouse</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">Granary</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">LumberCamp</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">MiningCamp</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Storehouse</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Granary</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Food" relativity="BasePercent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_DEMETERS_THRONE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_DEMETERS_THRONE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicHestiasHearth" type="Normal">
     <effects>
-      <effect type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.75" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractVillager</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_HESTIAS_HEARTH_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_HESTIAS_HEARTH_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicPtahsSceptre" type="Normal">
     <effects>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="Percent">
         <target type="ProtoUnit">Farm</target>
       </effect>
-      <effect type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Gold" relativity="Percent">
         <target type="ProtoUnit">Farm</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_PTAHS_SCEPTRE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_PTAHS_SCEPTRE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTyrfingAngantyrsSword" type="Normal">
     <effects>
-      <effect type="Data" amount="0.5" subtype="OnHitEffectRate" allactions="1"
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="OnHitEffectRate" allactions="1"
         effecttype="Lifesteal" targettype="Unit" relativity="Absolute">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TYRFING_ANGANTYRS_SWORD_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicSvadilfarisSledge" type="Normal">
     <effects>
-      <effect type="Data" amount="0" subtype="Cost" resource="Favor" relativity="Assign">
+      <effect mergeMode='add' type="Data" amount="0" subtype="Cost" resource="Favor" relativity="Assign">
         <target type="ProtoUnit">AbstractFortress</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SVADILFARIS_SLEDGE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SVADILFARIS_SLEDGE_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicRheiasCrown" type="Normal">
     <effects>
-      <effect type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">AbstractTownCenter</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">AbstractTownCenter</target>
       </effect>
-      <effect type="Data" action="Autogather" amount="5.00" subtype="ActionEnable"
+      <effect mergeMode='add' type="Data" action="Autogather" amount="5.00" subtype="ActionEnable"
         relativity="Absolute">
         <target type="ProtoUnit">AbstractTownCenter</target>
       </effect>
-      <effect type="Data" action="Autogather" amount="0.05" subtype="WorkRate" unittype="Favor"
+      <effect mergeMode='add' type="Data" action="Autogather" amount="0.05" subtype="WorkRate" unittype="Favor"
         relativity="Absolute">
         <target type="ProtoUnit">AbstractTownCenter</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_RHEIAS_CROWN_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_RHEIAS_CROWN_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicTextsOfImhotep" type="Normal">
     <effects>
-      <effect type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_TEXTS_OF_IMHOTEP_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_TEXTS_OF_IMHOTEP_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicCharonsObol" type="Normal">
     <effects>
-      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
+      <effect mergeMode='add' type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
         relativity="Assign">
         <target type="ProtoUnit">VillagerGreek</target>
       </effect>
-      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
+      <effect mergeMode='add' type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
         relativity="Assign">
         <target type="ProtoUnit">VillagerEgyptian</target>
       </effect>
-      <effect type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
+      <effect mergeMode='add' type="Data" amount="125.00" subtype="ResourceReturn" resource="Food"
         relativity="Assign">
         <target type="ProtoUnit">VillagerNorse</target>
       </effect>
-      <effect type="Data" amount="175.00" subtype="ResourceReturn" resource="Gold"
+      <effect mergeMode='add' type="Data" amount="175.00" subtype="ResourceReturn" resource="Gold"
         relativity="Assign">
         <target type="ProtoUnit">VillagerDwarf</target>
       </effect>
-      <effect type="Data" amount="212.50" subtype="ResourceReturn" resource="Food"
+      <effect mergeMode='add' type="Data" amount="212.50" subtype="ResourceReturn" resource="Food"
         relativity="Assign">
         <target type="ProtoUnit">VillagerAtlantean</target>
       </effect>
-      <effect type="Data" amount="37.50" subtype="ResourceReturn" resource="Wood"
+      <effect mergeMode='add' type="Data" amount="37.50" subtype="ResourceReturn" resource="Wood"
         relativity="Assign">
         <target type="ProtoUnit">VillagerAtlantean</target>
       </effect>
-      <effect type="Data" amount="300.00" subtype="ResourceReturn" resource="Food"
+      <effect mergeMode='add' type="Data" amount="300.00" subtype="ResourceReturn" resource="Food"
         relativity="Assign">
         <target type="ProtoUnit">VillagerAtlanteanHero</target>
       </effect>
-      <effect type="Data" amount="50.00" subtype="ResourceReturn" resource="Wood"
+      <effect mergeMode='add' type="Data" amount="50.00" subtype="ResourceReturn" resource="Wood"
         relativity="Assign">
         <target type="ProtoUnit">VillagerAtlanteanHero</target>
       </effect>
-      <effect type="Data" amount="5.00" subtype="ResourceReturn" resource="Favor"
+      <effect mergeMode='add' type="Data" amount="5.00" subtype="ResourceReturn" resource="Favor"
         relativity="Assign">
         <target type="ProtoUnit">VillagerAtlanteanHero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_CHARONS_OBOL_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_CHARONS_OBOL_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicHekatesTorches" type="Normal">
     <effects>
-      <effect type="Data" subtype="GodPowerROFFactor" amount="0.50" relativity="Percent">
+      <effect mergeMode='add' type="Data" subtype="GodPowerROFFactor" amount="0.50" relativity="Percent">
         <target type="Player">
         </target>
       </effect>
-      <effect type="Data" subtype="GodPowerCostFactor" amount="0.50" relativity="Percent">
+      <effect mergeMode='add' type="Data" subtype="GodPowerCostFactor" amount="0.50" relativity="Percent">
         <target type="Player">
         </target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_HEKATES_TORCHES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_HEKATES_TORCHES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicShenOfNekhbet" type="Normal">
     <effects>
-      <effect type="Data" allactions="1" amount="10.00" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" allactions="1" amount="10.00" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeMythUnitNotTitan</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_SHEN_OF_NEKHBET_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_SHEN_OF_NEKHBET_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicGlaucusBookOfProphecies" type="Normal">
     <effects>
-      <effect type="Data" action="Gather" amount="2.50" subtype="WorkRate" unittype="FishResource"
+      <effect mergeMode='add' type="Data" action="Gather" amount="2.50" subtype="WorkRate" unittype="FishResource"
         relativity="BasePercent">
         <target type="ProtoUnit">AbstractFishingShip</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_GLAUCUS_BOOK_OF_PROPHECIES_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicProwOfTheArgo" type="Normal">
     <effects>
-      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractWarship</target>
       </effect>
-      <effect type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractWarshipHero</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_PROW_OF_THE_ARGO_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_PROW_OF_THE_ARGO_OTHER</effect>
     </effects>
   </tech>
   <tech name="RelicGoldenCamelStatue" type="Normal">
     <effects>
-      <effect type="Data" amount="5.00" subtype="MaximumVelocity" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="5.00" subtype="MaximumVelocity" relativity="Absolute">
         <target type="ProtoUnit">OsirisPieceCart</target>
       </effect>
-      <effect type="TextOutput">STR_RLC_TECH_GOLDEN_CAMEL_STATUE_SELF</effect>
-      <effect all="true" type="TextOutput">STR_RLC_TECH_GOLDEN_CAMEL_STATUE_OTHER</effect>
     </effects>
   </tech>
 </techtreemods>
