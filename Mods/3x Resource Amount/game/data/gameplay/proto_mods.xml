@@ -1,0 +1,379 @@
+<protomods>
+    <!-- Gold -->
+    <unit name="MineGoldLarge">        
+        <initialresource mergeMode='remove' resourcetype="Gold">6000.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">6000.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">18000.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">18000.0000</carrycapacity>
+    </unit>
+    <unit name="MineGoldMedium">        
+        <initialresource mergeMode='remove' resourcetype="Gold">3000.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">3000.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">9000.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">9000.0000</carrycapacity>
+    </unit>
+    <unit name="MineGoldSmall">        
+        <initialresource mergeMode='remove' resourcetype="Gold">1500.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">1500.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">4500.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">4500.0000</carrycapacity>
+    </unit>
+
+    <unit name="MineDwarvenLarge">        
+        <initialresource mergeMode='remove' resourcetype="Gold">6000.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">7500.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">18000.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">22500.0000</carrycapacity>
+    </unit>
+    <unit name="MineDwarvenMedium">        
+        <initialresource mergeMode='remove' resourcetype="Gold">3000.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">3000.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">9000.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">9000.0000</carrycapacity>
+    </unit>
+    <unit name="MineDwarvenSmall">        
+        <initialresource mergeMode='remove' resourcetype="Gold">1500.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Gold">1500.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Gold">4500.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Gold">4500.0000</carrycapacity>
+    </unit>
+    <!-- /Gold -->
+
+    <!-- Wood -->
+    <!-- Below, is for if people ask for that change. Might make Fall of The Trident #29 tough-->
+    <!-- <unit name="Taproot">        
+        <initialresource mergeMode='remove' resourcetype="Wood">20000.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">60000.0000</initialresource>        
+    </unit> -->
+    <!-- Below, is for if people ask for that change. Might make Fall of The Trident #18 tough-->
+    <!-- <unit name="TamariskTree">        
+        <initialresource mergeMode='remove' resourcetype="Wood">1500.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">4500.0000</initialresource>        
+    </unit> -->
+
+    <unit name="TreeCypress">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeCypressSnow">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeHades">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeGaia">        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
+    </unit>
+    <unit name="TreeMarsh">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeOak">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeOakAutumn">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeOakRound">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeOlive">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreePalm">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreePine">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreePineDead">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreePineSnow">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeSavannah">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeSavannahOld">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeTundra">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <unit name="TreeTundraSnow">        
+        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+    </unit>
+    <!-- /Wood -->
+
+    <!-- Food -->
+    <unit name="BerryBush">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Food">150.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Food">450.0000</carrycapacity>
+    </unit>
+
+    <!-- SPC's -->
+    <unit name="PigSPC">        
+        <initialresource mergeMode='remove' resourcetype="Food">50.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Food">300.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Food">150.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Food">900.0000</carrycapacity>
+    </unit>
+    <unit name="ArcticWolfSPC">        
+        <initialresource mergeMode='remove' resourcetype="Food">125.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">375.0000</initialresource>        
+    </unit>
+    <unit name="CrownedCraneSPC">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="DeerSPC">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <!-- /SPC's -->
+
+    <!-- Animals -->
+    <unit name="ArcticWolf">        
+        <initialresource mergeMode='remove' resourcetype="Food">125.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">375.0000</initialresource>        
+    </unit>
+    <unit name="Aurochs">        
+        <initialresource mergeMode='remove' resourcetype="Food">400.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1200.0000</initialresource>        
+    </unit>
+    <unit name="Baboon">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="Bear">        
+        <initialresource mergeMode='remove' resourcetype="Food">200.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">600.0000</initialresource>        
+    </unit>
+    <unit name="Boar">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="Caribou">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="Chicken">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="ChickenEvil">  <!-- What? o.O -->       
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>    
+    <unit name="Crocodile">        
+        <initialresource mergeMode='remove' resourcetype="Food">200.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">600.0000</initialresource>        
+    </unit>
+    <unit name="CrownedCrane">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="Deer">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="Elephant">        
+        <initialresource mergeMode='remove' resourcetype="Food">750.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">2250.0000</initialresource>        
+    </unit>
+    <unit name="Elk">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="Gazelle">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="Giraffe">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="Hippopotamus">        
+        <initialresource mergeMode='remove' resourcetype="Food">400.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1200.0000</initialresource>        
+    </unit>
+    <unit name="Hyena">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="Lion">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="Monkey">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="PolarBear">        
+        <initialresource mergeMode='remove' resourcetype="Food">200.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">600.0000</initialresource>        
+    </unit>
+    <unit name="Rhinoceros">        
+        <initialresource mergeMode='remove' resourcetype="Food">500.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1500.0000</initialresource>        
+    </unit>
+    <unit name="Walrus">        
+        <initialresource mergeMode='remove' resourcetype="Food">400.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1200.0000</initialresource>        
+    </unit>
+    <unit name="WaterBuffalo">        
+        <initialresource mergeMode='remove' resourcetype="Food">400.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1200.0000</initialresource>        
+    </unit>
+    <unit name="Wolf">        
+        <initialresource mergeMode='remove' resourcetype="Food">125.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">375.0000</initialresource>        
+    </unit>
+    <unit name="Zebra">        
+        <initialresource mergeMode='remove' resourcetype="Food">200.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">600.0000</initialresource>        
+    </unit>
+    
+    <unit name="ChickenExploding">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <!-- Herdable -->
+
+    <!-- /Herdable -->
+    <unit name="Cow">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Food">400.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Food">1200.0000</carrycapacity>
+    </unit>
+    <unit name="Goat">        
+        <initialresource mergeMode='remove' resourcetype="Food">50.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Food">300.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Food">150.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Food">900.0000</carrycapacity>
+    </unit>
+    <unit name="Pig">        
+        <initialresource mergeMode='remove' resourcetype="Food">50.0000</initialresource>        
+        <carrycapacity mergeMode='remove' resourcetype="Food">300.0000</carrycapacity>
+        <initialresource mergeMode='add' resourcetype="Food">150.0000</initialresource>        
+        <carrycapacity mergeMode='add' resourcetype="Food">900.0000</carrycapacity>
+    </unit>
+    <!-- /Animals -->
+
+    <!-- Set Animals -->
+    <unit name="ArcticWolfOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">90.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">270.0000</initialresource>        
+    </unit>
+    <unit name="AurochsOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="BaboonOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <unit name="BearOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="BoarOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">225.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">675.0000</initialresource>        
+    </unit>
+    <unit name="CaribouOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="CrocodileOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="CrownedCraneOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <unit name="DeerOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="ElephantOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">550.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1650.0000</initialresource>        
+    </unit>
+    <unit name="ElkOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="GazelleOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">100.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">300.0000</initialresource>        
+    </unit>
+    <unit name="GiraffeOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">200.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">600.0000</initialresource>        
+    </unit>
+    <unit name="HippopotamusOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="HyenaOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <unit name="LionOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <unit name="MonkeyOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">75.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">225.0000</initialresource>        
+    </unit>
+    <unit name="PolarBearOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit>
+    <unit name="RhinocerosOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">375.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">1125.0000</initialresource>        
+    </unit>
+    <unit name="WalrusOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="WaterBuffaloOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">300.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">900.0000</initialresource>        
+    </unit>
+    <unit name="WolfOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">90.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">270.0000</initialresource>        
+    </unit>
+    <unit name="ZebraOfSet">        
+        <initialresource mergeMode='remove' resourcetype="Food">150.0000</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Food">450.0000</initialresource>        
+    </unit> 
+    <!-- /Set Animals -->
+    <!-- /Food -->
+
+
+</protomods>

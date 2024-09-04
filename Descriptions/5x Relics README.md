@@ -18,5 +18,6 @@ If you find that one or more relics does not appear to be affected by this mod, 
 
 1. Be newer than this mod.
 2. Be added by some other mod you have.
+3. Be missed by me.
 
 In any case, do let me know, and i will see if i can add them to this.
