@@ -7,6 +7,8 @@ Mod by andr9528 (GitHub) / WolfDK (Discord) / BlueishTigerDK (Steam) / WolfDK199
 Multiplies the amount of resources in all sources by three.
 (Todo) Also multiplies how much food Odin' Great Hunt generates and Poseidon' Lure lures by three.
 
+This is an additive mod, so it should not conflict with any other mod.
+
 ## Issues
 
 Should any issues be found, fell free to create an issue on the GitHub Page <https://github.com/andr9528/Retold-Mods>.
