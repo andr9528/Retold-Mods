@@ -52,72 +52,72 @@
     </unit> -->
 
     <unit name="TreeCypress">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
-    </unit>
-    <unit name="TreeCypressSnow">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
-    </unit>
-    <unit name="TreeHades">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
-    </unit>
-    <unit name="TreeGaia">        
         <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
         <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
+    <unit name="TreeCypressSnow">        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
+    </unit>
+    <unit name="TreeHades">        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
+    </unit>
+    <unit name="TreeGaia">        
+        <initialresource mergeMode='remove' resourcetype="Wood">250.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">750.0300</initialresource>        
+    </unit>
     <unit name="TreeMarsh">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeOak">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeOakAutumn">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeOakRound">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeOlive">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreePalm">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreePine">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreePineDead">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreePineSnow">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeSavannah">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeSavannahOld">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeTundra">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <unit name="TreeTundraSnow">        
-        <initialresource mergeMode='remove' resourcetype="Wood">150.0100</initialresource>        
-        <initialresource mergeMode='add' resourcetype="Wood">450.0300</initialresource>        
+        <initialresource mergeMode='remove' resourcetype="Wood">200.0100</initialresource>        
+        <initialresource mergeMode='add' resourcetype="Wood">600.0300</initialresource>        
     </unit>
     <!-- /Wood -->
 
