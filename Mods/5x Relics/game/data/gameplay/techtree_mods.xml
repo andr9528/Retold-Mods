@@ -347,14 +347,14 @@
       <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="Tree" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
       <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="GoldResource"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Tree"
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="WoodResource"
         relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
