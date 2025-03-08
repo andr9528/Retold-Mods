@@ -1,4 +1,5 @@
 <techtreemods>
+  <!-- Vanilla -->
   <tech name="RelicAnkhofRa" type="Normal">
     <effects>
       <effect mergeMode='remove' type="Data" amount="0.05" subtype="ResourceTrickleRate"
@@ -76,26 +77,26 @@
   </tech>
   <tech name="RelicStaffOfDionysus" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="UnitRegenRate" relativity="Absolute">
+      <effect mergeMode='remove' type="Data" amount="1.0" subtype="UnitRegenRate" relativity="Absolute">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="2.5" subtype="UnitRegenRate" relativity="Absolute">
+      <effect mergeMode='add' type="Data" amount="5.0" subtype="UnitRegenRate" relativity="Absolute">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicFettersOfFenrir" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" action="HandAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" action="HandAttack" amount="1.30" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='remove' type="Data" action="RangedAttack" amount="1.20" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" action="RangedAttack" amount="1.30" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='add' type="Data" action="HandAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="HandAttack" amount="2.5" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
-      <effect mergeMode='add' type="Data" action="RangedAttack" amount="2" subtype="Damage" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" action="RangedAttack" amount="2.5" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">EconomicUpgraded</target>
       </effect>
     </effects>
@@ -144,50 +145,50 @@
   </tech>
   <tech name="RelicDwarvenHorseshoes" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">AbstractCavalry</target>
       </effect>
     </effects>
   </tech>
   <tech name="RelicBowOfArtemis" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">AbstractArcher</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Ballista</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">LogicalTypeRangedMythUnit</target>
       </effect>
     </effects>
@@ -451,10 +452,10 @@
   </tech>
   <tech name="RelicPandorasBox" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="0.80" subtype="Cost" resource="Favor" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="0.85" subtype="Cost" resource="Favor" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Favor" relativity="Percent">
+      <effect mergeMode='add' type="Data" amount="0.25" subtype="Cost" resource="Favor" relativity="Percent">
         <target type="ProtoUnit">MythUnit</target>
       </effect>
     </effects>
@@ -560,10 +561,10 @@
   </tech>
   <tech name="RelicTowerOfSestus" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" allactions="1" amount="0.40" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
+      <effect mergeMode='remove' type="Data" allactions="1" amount="1.0" subtype="DamageBonus" unittype="MythUnit" relativity="Absolute">
         <target type="ProtoUnit">SentryTower</target>
       </effect>
-      <effect mergeMode='add' type="Data" allactions="1" amount="2.0" subtype="DamageBonus" unittype="MythUnit"
+      <effect mergeMode='add' type="Data" allactions="1" amount="5.0" subtype="DamageBonus" unittype="MythUnit"
         relativity="Absolute">
         <target type="ProtoUnit">SentryTower</target>
       </effect>
@@ -571,10 +572,10 @@
   </tech>
   <tech name="RelicTrojanGateHinge" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="1.40" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractWall</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="2" subtype="Hitpoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="3" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">AbstractWall</target>
       </effect>
     </effects>
@@ -651,10 +652,10 @@
   </tech>
   <tech name="RelicHermesWingedSandals" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
     </effects>
@@ -719,10 +720,10 @@
   </tech>
   <tech name="RelicBlanketOfEmpressZoe" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="-0.10" subtype="ArmorVulnerability" armortype="Crush" relativity="Percent">
+      <effect mergeMode='remove' type="Data" amount="-0.15" subtype="ArmorVulnerability" armortype="Crush" relativity="Percent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="-0.50" subtype="ArmorVulnerability" armortype="Crush"
+      <effect mergeMode='add' type="Data" amount="-0.75" subtype="ArmorVulnerability" armortype="Crush"
         relativity="Percent">
         <target type="ProtoUnit">Building</target>
       </effect>
@@ -802,79 +803,79 @@
   </tech>
   <tech name="RelicDemetersThrone" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Storehouse</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Granary</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">LumberCamp</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">MiningCamp</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Storehouse</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Granary</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Food" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Food" relativity="BasePercent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Wood" relativity="BasePercent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect mergeMode='remove' type="Data" amount="0.75" subtype="Cost" resource="Gold" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.5" subtype="Cost" resource="Gold" relativity="BasePercent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Storehouse</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Granary</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">LumberCamp</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">MiningCamp</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">OxCartBuilding</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">House</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Manor</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.01" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">EconomicGuild</target>
       </effect>
       <effect mergeMode='add' type="Data" amount="0.01" subtype="Cost" resource="Wood" relativity="BasePercent">
@@ -985,10 +986,10 @@
   </tech>
   <tech name="RelicTextsOfImhotep" type="Normal">
     <effects>
-      <effect mergeMode='remove' type="Data" amount="0.9" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='remove' type="Data" amount="0.9" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Building</target>
       </effect>
-      <effect mergeMode='add' type="Data" amount="0.5" subtype="BuildPoints" relativity="BasePercent">
+      <effect mergeMode='add' type="Data" amount="0.5" subtype="BuildPoints" relativity="Percent">
         <target type="ProtoUnit">Building</target>
       </effect>
     </effects>
@@ -1127,4 +1128,348 @@
       </effect>
     </effects>
   </tech>
+
+  <!-- Immortal Pillars -->
+  <tech name="RelicOracleBone" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="2.0" subtype="BuildingChainResourceFactor" resource="Favor" relativity="Percent">
+        <target type="Player"></target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="10.0" subtype="BuildingChainResourceFactor" resource="Favor" relativity="Percent">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicXuanYuanSword" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" allactions="1" amount="1.15" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" allactions="1" amount="1.15" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">HumanSoldier</target>
+      </effect>
+      <effect mergeMode='add' type="Data" allactions="1" amount="1.75" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" allactions="1" amount="1.75" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">HumanSoldier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicKuiDrum" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.0025" subtype="OnDamageModify" modifytype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.0125" subtype="OnDamageModify" modifytype="Damage" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicFiveColoredStoneOfNuwa" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.50" subtype="RepairCostFactor" relativity="BasePercent">
+        <target type="Player"></target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.99" subtype="RepairCostFactor" relativity="BasePercent">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="PlowBonus">
+    <effects>
+      <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="IrrigationBonus">
+    <effects>
+      <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="FloodControlBonus">
+    <effects>
+      <effect mergeMode='remove' type="Data" action="Gather" amount="1.05" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+      <effect mergeMode='add' type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+        <target type="ProtoUnit">EconomicUpgraded</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicNineCauldrons" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Myrmidon</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Myrmidon</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Gastraphetoros</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Gastraphetoros</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Hetairos</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Hetairos</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">ChariotArcher</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">ChariotArcher</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">CamelRider</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">CamelRider</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">WarElephant</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">WarElephant</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Huskarl</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Huskarl</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Destroyer</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Destroyer</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">DestroyerHero</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">DestroyerHero</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Fanatic</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Fanatic</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">FanaticHero</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">FanaticHero</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">WhiteHorseCavalry</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">WhiteHorseCavalry</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalry</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalry</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalryDismounted</target>
+      </effect>
+      <effect mergeMode='remove' type="Data" amount="-0.05" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalryDismounted</target>
+      </effect>
+      
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Myrmidon</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Myrmidon</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Gastraphetoros</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Gastraphetoros</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Hetairos</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Hetairos</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">ChariotArcher</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">ChariotArcher</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">CamelRider</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">CamelRider</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">WarElephant</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">WarElephant</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Huskarl</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Huskarl</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Destroyer</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Destroyer</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">DestroyerHero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">DestroyerHero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">Fanatic</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">Fanatic</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">FanaticHero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">FanaticHero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">WhiteHorseCavalry</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">WhiteHorseCavalry</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalry</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalry</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Hack" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalryDismounted</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="-0.25" subtype="ArmorVulnerability" armortype="Pierce" relativity="Percent">
+        <target type="ProtoUnit">TigerCavalryDismounted</target>
+      </effect>
+    </effects>
+  </tech>
+   <tech name="RelicFurOfBoyi" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.25" subtype="UnitRegenRate" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="UnitRegenRate" relativity="Absolute">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicWuhaoBowOfHuangdi" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.85" subtype="OnHitEffect" action="RangedAttack" effecttype="Snare" duration="2.00" relativity="Assign">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="0.85" subtype="OnHitEffect" action="RangedAttack" effecttype="Snare" duration="10.00" relativity="Assign">
+        <target type="ProtoUnit">AbstractArcher</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicFeatherOfBifang" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" allactions="1" amount="0.20" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+        <target type="ProtoUnit">HumanSoldier</target>
+      </effect>
+      <effect mergeMode='add' type="Data" allactions="1" amount="1.0" subtype="DamageBonus" unittype="Building" relativity="Absolute">
+        <target type="ProtoUnit">HumanSoldier</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TailOfFeiRespawn">
+    <effects>
+      <effect mergeMode='remove' type="CreateUnit" unit="FeiTailOfFei" generator="Temple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+          <offset x="5.00" y="0.00" z="5.00">
+          </offset>
+        </pattern>
+      </effect>
+      <effect mergeMode='add' type="CreateUnit" unit="FeiTailOfFei" generator="Temple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="5.00" minradius="0.00">
+          <offset x="5.00" y="0.00" z="5.00">
+          </offset>
+        </pattern>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="TuskOfDangkangSpawn">
+    <effects>
+      <effect mergeMode='remove' type="CreateUnit" unit="Pig" generator="Temple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="2.00" minradius="0.00">
+          <offset x="5.00" y="0.00" z="5.00">
+          </offset>
+        </pattern>
+      </effect>
+      <effect mergeMode='add' type="CreateUnit" unit="Pig" generator="Temple">
+        <pattern type="Scatter" speed="0.00" radius="0.00" quantity="10.00" minradius="0.00">
+          <offset x="5.00" y="0.00" z="5.00">
+          </offset>
+        </pattern>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicFeatherOfJingwei" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="0.50" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="2.50" subtype="ResourceTrickleRate" resource="Wood" relativity="Absolute">
+        <target type="Player"></target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicJadeHare" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="1.05" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="1.25" subtype="MaximumVelocity" relativity="BasePercent">
+        <target type="ProtoUnit">MythUnit</target>
+      </effect>
+    </effects>
+  </tech>
+  <tech name="RelicXirang" type="Normal">
+    <effects>
+      <effect mergeMode='remove' type="Data" amount="10.0" subtype="UnitRegenRate" relativity="Absolute">
+        <target type="ProtoUnit">AbstractWall</target>
+      </effect>
+      <effect mergeMode='add' type="Data" amount="50.0" subtype="UnitRegenRate" relativity="Absolute">
+        <target type="ProtoUnit">AbstractWall</target>
+      </effect>
+    </effects>
+  </tech>
+
 </techtreemods>

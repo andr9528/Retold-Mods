@@ -7,6 +7,8 @@ Mod by andr9528 (GitHub) / WolfDK (Discord) / BlueishTigerDK (Steam) / WolfDK199
 Multiplies the effectiveness of relics by 5.
 If the effect would be at or above 100%, it will only be 99%, as a number of relics bugs out the game somewhat at 100%+.
 
+Some relics might not display their altered effect (e.g Ochre Whip Of Shennong), cause they achieve it indirectly.
+
 The Mod is an Additive Data Mod, so it should be compatible with any other 'techtree' altering mod.
 If some other mod changes the relics effects, prior to this loading, then relics might end up with additional effects.
 
