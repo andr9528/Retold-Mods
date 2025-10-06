@@ -1,0 +1,4 @@
+[submodule "AoMR-Mod-Development-Tools"]
+	path = AoMR-Mod-Development-Tools
+	url = https://github.com/andr9528/AoMR-Mod-Development-Tools
+	branch = main
