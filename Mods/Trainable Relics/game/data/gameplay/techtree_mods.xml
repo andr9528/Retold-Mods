@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<techtreemods>
+  <tech name="MythicAgeGeneral">
+    <effects>
+      <effect mergeMode="add" type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">RelicSpawner_Wolf</target>
+			</effect>
+    </effects>
+  </tech>
+</techtreemods>

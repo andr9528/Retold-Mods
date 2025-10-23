@@ -1,0 +1,207 @@
+<protomods>
+    <unit name="Wonder">
+        <train mergeMode="add" row="0" column="3">RelicSpawner_Wolf</train>
+        <flag mergeMode="add">HasGatherPoint</flag>
+    </unit>
+
+    <unit mergeMode="add" name="RelicSpawner_Wolf">
+        <!-- <displaynameid>STR_EMB_RELIC_NAME</displaynameid>
+        <icon>resources\nature\relics\relic_statue_monkey_icon.png</icon>
+        <animfile>norse\units\myth\fimbulwinter_wolf\fimbulwinter_wolf.xml</animfile>
+        <cost resourcetype="Food">1000.0000</cost>
+        <cost resourcetype="Wood">1000.0000</cost>
+        <cost resourcetype="Gold">1000.0000</cost>
+        <cost resourcetype="Favor">200.0000</cost>
+        <costEscalation>1.50</costEscalation>
+        <unittype>Unit</unittype>
+        <movementtype>Air</movementtype>
+        <trainPoints>30</trainPoints>
+        <los>0</los>
+        <initialhitpoints>9999.0000</initialhitpoints>
+        <maxhitpoints>9999.0000</maxhitpoints>
+        <armor type="Hack" value="0.9500"/>
+        <armor type="Pierce" value="0.9500"/>
+        <armor type="Crush" value="0.9500"/>
+        <flag>Immoveable</flag>
+        <flag>NonAutoFormedUnit</flag>
+        <flag>NotSelectable</flag>
+        <flag>DoNotShowOnMiniMap</flag>
+        <flag>OnlyInEditor</flag>
+        <flag>NoIdleActions</flag>
+        <flag>NonSolid</flag>
+        <flag>NoHPBar</flag>
+        <flag>PlaceAnywhere</flag>
+        <flag>HideFromDialogs</flag>
+        <flag>NotDeathTracked</flag>
+        <flag>Invulnerable</flag> -->
+        <spawn type="birth" count="1" skipplacementcheck="">Relic</spawn>
+
+        <displaynameid>STR_UNIT_CITIZEN_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_CITIZEN_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_CITIZEN_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_CITIZEN_EDT_NAME</editornameid>
+		<icon>resources\atlantean\player_color\units\villager_atlantean_icon.png</icon>
+		<animfile>atlantean\units\economic\villager_atlantean\villager_atlantean.xml</animfile>
+		<soundsetfile>atlantean\vo\villager_atlantean\villager_atlantean.xml</soundsetfile>
+		<obstructionradiusx>0.7400</obstructionradiusx>
+		<obstructionradiusz>0.7400</obstructionradiusz>
+		<selectionradiusx>1.0000</selectionradiusx>
+		<selectionradiusz>1.2500</selectionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>Civilian</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>100.0000</initialhitpoints>
+		<maxhitpoints>100.0000</maxhitpoints>
+		<trainpoints>30.0000</trainpoints>
+		<buildlimit>50</buildlimit>
+		<sharedbuildlimitunit>VillagerAtlantean</sharedbuildlimitunit>
+		<sharedbuildlimitunittypes>
+			<unittype>BuildLimitSharedAtlantean</unittype>
+		</sharedbuildlimitunittypes>
+		<weightclass>4</weightclass>
+		<populationcount>2</populationcount>
+		<maxvelocity>3.8000</maxvelocity>
+		<los>16.0000</los>
+		<sharedselectionunittypes>
+			<unittype>BuildLimitSharedAtlantean</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">85.0000</cost>
+		<cost resourcetype="Wood">15.0000</cost>
+		<carrycapacity resourcetype="Food">1.0000</carrycapacity>
+		<carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+		<carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+		<armor type="Hack" value="0.2500"></armor>
+		<armor type="Pierce" value="0.3500"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeEasySelectAvoid</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypePredatorsAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildLimitSharedAtlantean</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>EconomicUnit</unittype>
+		<unittype>AbstractVillager</unittype>
+		<unittype>Ranged</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>ValidIdleVillager</unittype>
+		<unittype>AffectedByTownBell</unittype>
+		<unittype>DisplayQueue</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeVillagerNotHero</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeAffectedByValor</unittype>
+		<unittype>EconomicUpgraded</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeGatherNoDropsite</unittype>
+		<hotkeycontext>BuildAtlanteanAccel</hotkeycontext>
+		<train row="0" column="0">Manor</train>
+		<train row="0" column="1">EconomicGuild</train>
+		<train row="0" column="2">SkyPassage</train>
+		<train row="0" column="4">Temple</train>
+		<train row="0" column="5">Dock</train>
+		<train row="1" column="1">MilitaryBarracks</train>
+		<train row="1" column="2">CounterBarracks</train>
+		<train row="1" column="3">Farm</train>
+		<train row="1" column="4">Market</train>
+		<train row="1" column="5">Armory</train>
+		<train row="2" column="0">TownCenter</train>
+		<train row="255" column="0">VillageCenter</train>
+		<train row="2" column="1">WallConnector</train>
+		<train row="255" column="255">WallShort</train>
+		<train row="255" column="255">WallMedium</train>
+		<train row="255" column="255">WallLong</train>
+		<train row="2" column="2">SentryTower</train>
+		<train row="2" column="3">Palace</train>
+		<train row="2" column="4">MirrorTower</train>
+		<train row="2" column="5">Wonder</train>
+		<train>TempleOvergrown</train>
+		<train>TitanGate</train>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>AutoTrainable</flag>
+		<flag>UseSharedBuildLimit</flag>
+		<flag>HasDefaultAttack</flag>
+		<flag>NoIdleActions</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<command row="1" column="0">VillagerAtlanteanToHero</command>
+		<command row="3" column="2">SeekShelter</command>
+		<command row="3" column="3">Repair</command>
+		<command row="3" column="4">AttackMove</command>
+		<transformcommand>VillagerAtlanteanToHero</transformcommand>
+		<tactics>villager.tactics</tactics>
+		<protoaction>
+			<name>Hunting</name>
+			<rate type="Herdable">1.000000</rate>
+			<rate type="Huntable">1.000000</rate>
+			<rate type="Tree">1.000000</rate>
+			<rate type="NonConvertableHerdable">1.000000</rate>
+		</protoaction>
+		<protoaction>
+			<name>ChopAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">8.000000</damage>
+		</protoaction>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Pierce">20.000000</damage>
+			<maxrange>14.000000</maxrange>
+			<projectile>ProjectileArrowNotFlaming</projectile>
+		</protoaction>
+		<protoaction>
+			<name>Build</name>
+			<rate type="Settlement">1.2500</rate>
+			<rate type="VillageCenter">1.2500</rate>
+			<rate type="Building">1.5000</rate>
+		</protoaction>
+		<protoaction>
+			<name>Repair</name>
+			<rate type="AbstractWall">0.3000</rate>
+			<rate type="AbstractTownCenter">0.5000</rate>
+			<rate type="Building">0.6000</rate>
+		</protoaction>
+		<protoaction>
+			<name>Gather</name>
+			<rate type="Huntable">1.550000</rate>
+			<rate type="Herdable">1.400000</rate>
+			<rate type="NonConvertableHerdable">1.400000</rate>
+			<rate type="BerryBush">1.090000</rate>
+			<rate type="AbstractFarm">1.090000</rate>
+			<rate type="WoodResource">1.550000</rate>
+			<rate type="GoldResource">1.320000</rate>
+			<rate type="ThePeachBlossomSpring" resource="Food">1.550000</rate>
+			<rate type="ThePeachBlossomSpring" resource="Wood">1.550000</rate>
+			<rate type="ThePeachBlossomSpring" resource="Gold">1.320000</rate>
+		</protoaction>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">10.000000</damage>
+			<damagebonus type="AbstractTower">4.00000</damagebonus>
+			<maxrange>0.500000</maxrange>
+			<defaultattack>1</defaultattack>
+		</protoaction>
+    </unit>
+</protomods>
