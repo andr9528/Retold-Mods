@@ -7,8 +7,8 @@ Mod by andr9528 (GitHub) / WolfDK (Discord / Steam) / WolfDK1996 (Age of Empire)
 Do you often play long games, well into the Wonder Age, with an abundance of resources and nothing to spend it on?
 Here is a mod for you.
 
-Adds ability to "train" relics from the wonder at a scaling cost.
-If my 5x Relics mod is also enabled, then the cost will start out higher.
+Adds ability to "train" relics from the wonder at a scaling (1.5x) cost.
+Has Cross-compatibility with my 5x Relics mod, increasing the starting cost of relics by 4x.
 
 This is an additive mod, so it should not conflict with any other mod.
 

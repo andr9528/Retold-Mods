@@ -9,6 +9,8 @@ If the effect would be at or above 100%, it will only be 95%, as a number of rel
 
 Some relics might not display their altered effect (e.g Ochre Whip Of Shennong), cause they have a custom description. I have however checked, and it seems that they do appear to have altered effect.
 
+Has Cross-compatibility with my Trainable Relics.
+
 The Mod is an Additive Data Mod, so it should be compatible with any other 'techtree' altering mod.
 If some other mod changes the relics effects, prior to this loading, then relics might end up with additional effects.
 

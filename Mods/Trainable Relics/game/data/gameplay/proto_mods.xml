@@ -11,12 +11,11 @@
     <unit mergeMode="add" name="RelicSpawner_Wolf">
         <displaynameid>STR_EMB_RELIC_NAME</displaynameid>
         <icon>resources\nature\relics\relic_statue_monkey_icon.png</icon>
-        <!-- <animfile>norse\units\myth\fimbulwinter_wolf\fimbulwinter_wolf.xml</animfile> -->
         <cost resourcetype="Food">250.0000</cost>
         <cost resourcetype="Wood">250.0000</cost>
         <cost resourcetype="Gold">250.0000</cost>
         <cost resourcetype="Favor">25.0000</cost>
-        <costEscalation>2.0</costEscalation>
+        <costEscalation>1.5</costEscalation>
         <unittype>Unit</unittype>
         <movementtype>Air</movementtype>
         <trainPoints>30</trainPoints>
@@ -38,7 +37,9 @@
         <flag>HideFromDialogs</flag>
         <flag>NotDeathTracked</flag>
         <flag>Invulnerable</flag>
-        <spawn type="birth" count="1" delay="1000">Relic</spawn>
-        <!-- <spawn type="birth" count="1" skipplacementcheck="" delay="1000">Relic</spawn> -->
+        <spawn type="birth" count="1" delay="250">Relic</spawn>
     </unit>
+
+	<unit name="RelicMultiplier_Wolf">
+	</unit>
 </protomods>

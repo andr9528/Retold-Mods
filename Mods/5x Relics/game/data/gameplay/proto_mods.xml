@@ -1,7 +1,6 @@
 <protomods>
-    <unit mergeMode="add" name="RelicMultiplier_Wolf">
+    <unit name="RelicMultiplier_Wolf">
         <icon>resources\nature\relics\relic_statue_monkey_icon.png</icon>
-        <costEscalation>2.0</costEscalation>
         <unittype>Unit</unittype>
         <movementtype>Air</movementtype>
         <trainPoints>30</trainPoints>

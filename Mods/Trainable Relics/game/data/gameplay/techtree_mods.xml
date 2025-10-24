@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <techtreemods>
-  <tech name="MythicAgeGeneral">
+  <tech name="ArchaicAgeWeakenUnits">
     <effects>
-      <effect mergeMode="add" type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+      <effect mergeMode="add" type="TechStatus" status="active">ArchaicAgeGeneral_Wolf_Relic_Trainable</effect>
+    </effects>
+   </tech>
+   <tech mergeMode="add" name="ArchaicAgeGeneral_Wolf_Relic_Trainable">
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">RelicSpawner_Wolf</target>
       </effect>
     </effects>
-  </tech>
-  <tech mergeMode="add" name="ArchaicAgeGeneral_Wolf_Trainable">
+   </tech>
+  <tech mergeMode="add" name="ArchaicAgeGeneral_Wolf_Trainable_Multiply">
     <status>OBTAINABLE</status>
-    <delay>1.0000</delay>
     <flag>HideAllNotifications</flag>
-    <flag>DelayedFirstActivation</flag>
     <flag>Volatile</flag>
     <prereqs>
       <typecount unit="RelicMultiplier_Wolf" count="1.00" state="aliveState" operator="gte"></typecount>

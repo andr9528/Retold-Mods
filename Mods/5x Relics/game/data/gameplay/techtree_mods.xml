@@ -2658,16 +2658,25 @@
   </tech>
 
   <!-- Manuel -->
-   <tech name="ArchaicAgeWeakenUnits">
+   <tech name="Wolf_Multiply_Detector_Activator">
+    <status>OBTAINABLE</status>
+		<delay>1.0000</delay>
+		<flag>HideAllNotifications</flag>
+		<flag>DelayedFirstActivation</flag>
+		<flag>Volatile</flag>
     <effects>
-      <effect mergeMode="add" type="TechStatus" status="active">ArchaicAgeGeneral_Wolf_Multiply</effect>
+      <effect mergeMode="add" type="TechStatus" status="OBTAINABLE">Wolf_Multiply_Detector_Spawner</effect>
     </effects>
    </tech>
-   <tech mergeMode="add" name="ArchaicAgeGeneral_Wolf_Multiply">
+   <tech mergeMode="add" name="Wolf_Multiply_Detector_Spawner">
     <status>UNOBTAINABLE</status>
-		<flag>HideAllNotifications</flag>
+    <flag>HideAllNotifications</flag>
+    <flag>Volatile</flag>
+    <prereqs>
+      <typecount unit="Unit" count="1.00" state="aliveState" operator="gte"></typecount>
+    </prereqs>
     <effects>
-      <effect type="CreateUnit" unit="RelicMultiplier_Wolf" generator="Relic">
+      <effect type="CreateUnit" unit="RelicMultiplier_Wolf" generator="Unit">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="0.00" y="-5.00" z="0.00"></offset>
 				</pattern>
