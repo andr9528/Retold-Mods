@@ -2656,4 +2656,22 @@
       </effect>
     </effects>
   </tech>
+
+  <!-- Manuel -->
+   <tech name="ArchaicAgeWeakenUnits">
+    <effects>
+      <effect mergeMode="add" type="TechStatus" status="active">ArchaicAgeGeneral_Wolf_Multiply</effect>
+    </effects>
+   </tech>
+   <tech mergeMode="add" name="ArchaicAgeGeneral_Wolf_Multiply">
+    <status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+    <effects>
+      <effect type="CreateUnit" unit="RelicMultiplier_Wolf" generator="Relic">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="0.00" y="-5.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+    </effects>
+   </tech>
 </techtreemods>

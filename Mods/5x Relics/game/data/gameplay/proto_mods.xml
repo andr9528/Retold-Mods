@@ -1,21 +1,6 @@
 <protomods>
-    <unit name="Wonder">
-        <train mergeMode="add" row="0" column="3">RelicSpawner_Wolf</train>
-        <flag mergeMode="add">HasGatherPoint</flag>
-    </unit>
-
-	<unit name="Relic">
-		<flag mergeMode="remove">NonSolid</flag>
-	</unit>
-
-    <unit mergeMode="add" name="RelicSpawner_Wolf">
-        <displaynameid>STR_EMB_RELIC_NAME</displaynameid>
+    <unit mergeMode="add" name="RelicMultiplier_Wolf">
         <icon>resources\nature\relics\relic_statue_monkey_icon.png</icon>
-        <!-- <animfile>norse\units\myth\fimbulwinter_wolf\fimbulwinter_wolf.xml</animfile> -->
-        <cost resourcetype="Food">250.0000</cost>
-        <cost resourcetype="Wood">250.0000</cost>
-        <cost resourcetype="Gold">250.0000</cost>
-        <cost resourcetype="Favor">25.0000</cost>
         <costEscalation>2.0</costEscalation>
         <unittype>Unit</unittype>
         <movementtype>Air</movementtype>
@@ -38,7 +23,5 @@
         <flag>HideFromDialogs</flag>
         <flag>NotDeathTracked</flag>
         <flag>Invulnerable</flag>
-        <spawn type="birth" count="1" delay="1000">Relic</spawn>
-        <!-- <spawn type="birth" count="1" skipplacementcheck="" delay="1000">Relic</spawn> -->
     </unit>
 </protomods>
